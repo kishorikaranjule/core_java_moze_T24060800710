@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>DOM</h2>
+<p>Finding HTML elements by ClassName</p>
+<p class="intro">Hello World!!!!</p>
+<p class="intro">Welcome to <b>Moze</b> College</p>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+
+const element = document.getElementsByClassName("intro");
+document.getElementById("demo").innerHTML = 'TNS Java Batch' +" "+ element[0].innerHTML;
+
+</script>
+</body>
+</html>
